@@ -1,1 +1,6 @@
 language: Spanish
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
