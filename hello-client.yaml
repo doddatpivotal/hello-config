@@ -1,7 +1,2 @@
 server:
   port: 8081
-# disable the hystrix streaming on rabbit locally
-hystrix:
-  stream:
-    queue:
-      enabled: false  
