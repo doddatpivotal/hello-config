@@ -1,8 +1,6 @@
 language: Spanish
 spring: 
   jpa:
-    generate-ddl: true
-#     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
-#     hibernate:
-#       # The database schema is dropped and recreated each time the app is started.
-#       ddl-auto: create-drop
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
