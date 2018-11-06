@@ -1,4 +1,4 @@
-language: Spanish
+language: French
 spring: 
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
